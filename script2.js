@@ -23,8 +23,8 @@ function handlFileSelect(event) {
         targetCanvas.height = img.height;
         const targetCtx = targetCanvas.getContext("2d");
         const imageData = sourceCtx.getImageData(0,0,img.width,img.height);
-          console.log(imageData);
-          console.log(imageData);
+          // console.log(imageData);
+          // console.log(imageData);
 
         for(let i = 0 ; i< imageData.data.length ; i+= 4){
             //  I chenged the color.
