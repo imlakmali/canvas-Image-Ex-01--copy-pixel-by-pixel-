@@ -11,8 +11,8 @@
     
 }
 #sourceCanvas{
-    border: 2px solid black;
+    border: 2px solid rgb(154, 25, 25);
 }
 
-#targetCanvas{border: 2px solid black;}
+#targetCanvas{border: 2px solid rgb(15, 194, 143);}
 
