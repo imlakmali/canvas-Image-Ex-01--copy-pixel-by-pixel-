@@ -6,7 +6,7 @@ function handlFileSelect(event) {
     const reader = new FileReader();
     reader.readAsDataURL(file);
 
-    reader.onload = function () {
+    reader.onload = function () { 
 
       const img = new Image();
       img.src = reader.result;
